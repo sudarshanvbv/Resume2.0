@@ -451,6 +451,10 @@ progress {
 [hidden] {
   display: none !important;
 }
+.certimg{
+  display: none;
+}
+
 
 .lead {
   font-size: 1.25rem;
@@ -7557,6 +7561,11 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
+p.cert:hover  .certimg{
+  display: block;
+  background-color: #000;
+}
+
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
@@ -11398,12 +11407,4 @@ section.resume-section .resume-section-content {
   }
 }
 
-.certimg{
-  display: none;
-}
 
-
-a.cert:hover  .certimg{
-  display: block;
-  background-color: #000;
-}
