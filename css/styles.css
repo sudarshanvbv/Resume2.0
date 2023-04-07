@@ -11397,3 +11397,13 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.certimg{
+  display: none;
+}
+
+
+a.cert:hover  .certimg{
+  display: block;
+  background-color: #000;
+}
