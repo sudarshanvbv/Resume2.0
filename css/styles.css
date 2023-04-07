@@ -5037,7 +5037,9 @@ textarea.form-control-lg {
   content: counters(section, ".") ". ";
   counter-increment: section;
 }
-
+.skill-icon:hover{
+  color: #bd5d38;
+}
 .list-group-item-action {
   width: 100%;
   color: #495057;
