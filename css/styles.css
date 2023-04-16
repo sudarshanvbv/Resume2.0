@@ -11413,3 +11413,110 @@ p.cert:hover  .certimg{
   display: block;
   background-color: #000;
 }
+.progress-bar-gray-line {
+  width: 100%;
+  height: 4px;
+  background-color: hsla(0, 0%, 68.7%, 0.5);
+}
+
+.progress-bar-90 {
+  position: relative;
+  width: 90%;
+  height: 4px;
+  margin-top: -4px;
+  background-color: #d62222;
+}
+
+.progress-bar-90.home-green {
+  background-color: #00c382;
+}
+
+.progress-bar-90.home-blue {
+  background-color: #00b4dd;
+}
+
+.progress-bar-wrapper {
+  width: 100%;
+}
+
+.progress-bar-80 {
+  position: relative;
+  width: 82%;
+  height: 4px;
+  margin-top: -4px;
+  background-color: #d62222;
+}
+
+.progress-bar-80.home-green {
+  background-color: #00c382;
+}
+
+.progress-bar-80.home-blue {
+  background-color: #00b4dd;
+}
+.progress-bar-91 {
+  position: relative;
+  width: 91%;
+  height: 4px;
+  margin-top: -4px;
+  background-color: #d62222;
+}
+
+.progress-bar-91.home-green {
+  background-color: #00c382;
+}
+
+.progress-bar-91.home-blue {
+  background-color: #00b4dd;
+}
+.home-progress-bar-wrapper {
+  display: flex;
+  width: 100%;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.home-progress-bar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  grid-row-gap: 20px;
+}
+
+.home-progress-bar-item {
+  position: relative;
+}
+
+.home-progress-bar-title {
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.home-progress-bar-number {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  font-family: Lato, sans-serif;
+  color: #d62222;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.home-progress-bar-number.home-green {
+  color: #00c382;
+}
+
+.home-progress-bar-number.home-blue {
+  color: #00b4dd;
+}
+.home-progress-bar-wrapper {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.home-progress-bar-wrapper {
+  flex-wrap: wrap;
+}
